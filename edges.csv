@@ -1,0 +1,157 @@
+Start,End,Name,Reverse_name,Distance
+Atlanta,Charleston,Atlanta-Charleston,Charleston-Atlanta,2
+Atlanta,Miami,Atlanta-Miami,Miami-Atlanta,5
+Atlanta,Nashville,Atlanta-Nashville,Nashville-Atlanta,1
+Atlanta,New Orleans,Atlanta-New Orleans,New Orleans-Atlanta,4
+Atlanta,Raleigh,Atlanta-Raleigh,Raleigh-Atlanta,2
+Boston,Montreal,Boston-Montreal,Montreal-Boston,2
+Boston,New York City,Boston-New York City,New York City-Boston,2
+Calgary,Helena,Calgary-Helena,Helena-Calgary,4
+Calgary,Seattle,Calgary-Seattle,Seattle-Calgary,4
+Calgary,Vancouver,Calgary-Vancouver,Vancouver-Calgary,3
+Calgary,Winnipeg,Calgary-Winnipeg,Winnipeg-Calgary,6
+Charleston,Atlanta,Charleston-Atlanta,Atlanta-Charleston,2
+Charleston,Miami,Charleston-Miami,Miami-Charleston,4
+Charleston,Raleigh,Charleston-Raleigh,Raleigh-Charleston,2
+Chicago,Duluth,Chicago-Duluth,Duluth-Chicago,3
+Chicago,Omaha,Chicago-Omaha,Omaha-Chicago,4
+Chicago,Pittsburgh,Chicago-Pittsburgh,Pittsburgh-Chicago,3
+Chicago,Saint Louis,Chicago-Saint Louis,Saint Louis-Chicago,2
+Chicago,Toronto,Chicago-Toronto,Toronto-Chicago,4
+Dallas,El Paso,Dallas-El Paso,El Paso-Dallas,4
+Dallas,Houston,Dallas-Houston,Houston-Dallas,1
+Dallas,Little Rock,Dallas-Little Rock,Little Rock-Dallas,2
+Dallas,Oklahoma City,Dallas-Oklahoma City,Oklahoma City-Dallas,2
+Denver,Helena,Denver-Helena,Helena-Denver,4
+Denver,Kansas City,Denver-Kansas City,Kansas City-Denver,4
+Denver,Oklahoma City,Denver-Oklahoma City,Oklahoma City-Denver,4
+Denver,Omaha,Denver-Omaha,Omaha-Denver,4
+Denver,Phoenix,Denver-Phoenix,Phoenix-Denver,5
+Denver,Salt Lake City,Denver-Salt Lake City,Salt Lake City-Denver,3
+Denver,Santa Fe,Denver-Santa Fe,Santa Fe-Denver,2
+Duluth,Chicago,Duluth-Chicago,Chicago-Duluth,3
+Duluth,Helena,Duluth-Helena,Helena-Duluth,6
+Duluth,Omaha,Duluth-Omaha,Omaha-Duluth,2
+Duluth,Sault St Marie,Duluth-Sault St Marie,Sault St Marie-Duluth,3
+Duluth,Toronto,Duluth-Toronto,Toronto-Duluth,6
+Duluth,Winnipeg,Duluth-Winnipeg,Winnipeg-Duluth,4
+El Paso,Dallas,El Paso-Dallas,Dallas-El Paso,4
+El Paso,Houston,El Paso-Houston,Houston-El Paso,6
+El Paso,Los Angeles,El Paso-Los Angeles,Los Angeles-El Paso,6
+El Paso,Oklahoma City,El Paso-Oklahoma City,Oklahoma City-El Paso,5
+El Paso,Phoenix,El Paso-Phoenix,Phoenix-El Paso,3
+El Paso,Santa Fe,El Paso-Santa Fe,Santa Fe-El Paso,2
+Helena,Calgary,Helena-Calgary,Calgary-Helena,4
+Helena,Denver,Helena-Denver,Denver-Helena,4
+Helena,Duluth,Helena-Duluth,Duluth-Helena,6
+Helena,Omaha,Helena-Omaha,Omaha-Helena,5
+Helena,Salt Lake City,Helena-Salt Lake City,Salt Lake City-Helena,3
+Helena,Seattle,Helena-Seattle,Seattle-Helena,6
+Helena,Winnipeg,Helena-Winnipeg,Winnipeg-Helena,4
+Houston,Dallas,Houston-Dallas,Dallas-Houston,1
+Houston,El Paso,Houston-El Paso,El Paso-Houston,6
+Houston,New Orleans,Houston-New Orleans,New Orleans-Houston,2
+Kansas City,Denver,Kansas City-Denver,Denver-Kansas City,4
+Kansas City,Oklahoma City,Kansas City-Oklahoma City,Oklahoma City-Kansas City,2
+Kansas City,Omaha,Kansas City-Omaha,Omaha-Kansas City,1
+Kansas City,Saint Louis,Kansas City-Saint Louis,Saint Louis-Kansas City,2
+Las Vegas,Los Angeles,Las Vegas-Los Angeles,Los Angeles-Las Vegas,2
+Las Vegas,Salt Lake City,Las Vegas-Salt Lake City,Salt Lake City-Las Vegas,3
+Little Rock,Dallas,Little Rock-Dallas,Dallas-Little Rock,2
+Little Rock,Nashville,Little Rock-Nashville,Nashville-Little Rock,3
+Little Rock,New Orleans,Little Rock-New Orleans,New Orleans-Little Rock,3
+Little Rock,Oklahoma City,Little Rock-Oklahoma City,Oklahoma City-Little Rock,2
+Little Rock,Saint Louis,Little Rock-Saint Louis,Saint Louis-Little Rock,2
+Los Angeles,El Paso,Los Angeles-El Paso,El Paso-Los Angeles,6
+Los Angeles,Las Vegas,Los Angeles-Las Vegas,Las Vegas-Los Angeles,2
+Los Angeles,Phoenix,Los Angeles-Phoenix,Phoenix-Los Angeles,3
+Los Angeles,San Francisco,Los Angeles-San Francisco,San Francisco-Los Angeles,3
+Miami,Atlanta,Miami-Atlanta,Atlanta-Miami,5
+Miami,Charleston,Miami-Charleston,Charleston-Miami,4
+Miami,New Orleans,Miami-New Orleans,New Orleans-Miami,6
+Montreal,Boston,Montreal-Boston,Boston-Montreal,2
+Montreal,New York City,Montreal-New York City,New York City-Montreal,2
+Montreal,Sault St Marie,Montreal-Sault St Marie,Sault St Marie-Montreal,5
+Montreal,Toronto,Montreal-Toronto,Toronto-Montreal,3
+Nashville,Atlanta,Nashville-Atlanta,Atlanta-Nashville,1
+Nashville,Little Rock,Nashville-Little Rock,Little Rock-Nashville,3
+Nashville,Pittsburgh,Nashville-Pittsburgh,Pittsburgh-Nashville,4
+Nashville,Raleigh,Nashville-Raleigh,Raleigh-Nashville,3
+Nashville,Saint Louis,Nashville-Saint Louis,Saint Louis-Nashville,2
+New Orleans,Atlanta,New Orleans-Atlanta,Atlanta-New Orleans,4
+New Orleans,Houston,New Orleans-Houston,Houston-New Orleans,2
+New Orleans,Little Rock,New Orleans-Little Rock,Little Rock-New Orleans,3
+New Orleans,Miami,New Orleans-Miami,Miami-New Orleans,6
+New York City,Boston,New York City-Boston,Boston-New York City,2
+New York City,Montreal,New York City-Montreal,Montreal-New York City,2
+New York City,Pittsburgh,New York City-Pittsburgh,Pittsburgh-New York City,2
+New York City,Washington,New York City-Washington,Washington-New York City,2
+Oklahoma City,Dallas,Oklahoma City-Dallas,Dallas-Oklahoma City,2
+Oklahoma City,Denver,Oklahoma City-Denver,Denver-Oklahoma City,4
+Oklahoma City,El Paso,Oklahoma City-El Paso,El Paso-Oklahoma City,5
+Oklahoma City,Kansas City,Oklahoma City-Kansas City,Kansas City-Oklahoma City,2
+Oklahoma City,Little Rock,Oklahoma City-Little Rock,Little Rock-Oklahoma City,2
+Oklahoma City,Santa Fe,Oklahoma City-Santa Fe,Santa Fe-Oklahoma City,3
+Omaha,Chicago,Omaha-Chicago,Chicago-Omaha,4
+Omaha,Denver,Omaha-Denver,Denver-Omaha,4
+Omaha,Duluth,Omaha-Duluth,Duluth-Omaha,2
+Omaha,Helena,Omaha-Helena,Helena-Omaha,5
+Omaha,Kansas City,Omaha-Kansas City,Kansas City-Omaha,1
+Phoenix,Denver,Phoenix-Denver,Denver-Phoenix,5
+Phoenix,El Paso,Phoenix-El Paso,El Paso-Phoenix,3
+Phoenix,Los Angeles,Phoenix-Los Angeles,Los Angeles-Phoenix,3
+Phoenix,Santa Fe,Phoenix-Santa Fe,Santa Fe-Phoenix,3
+Pittsburgh,Chicago,Pittsburgh-Chicago,Chicago-Pittsburgh,3
+Pittsburgh,Nashville,Pittsburgh-Nashville,Nashville-Pittsburgh,4
+Pittsburgh,New York City,Pittsburgh-New York City,New York City-Pittsburgh,2
+Pittsburgh,Raleigh,Pittsburgh-Raleigh,Raleigh-Pittsburgh,2
+Pittsburgh,Saint Louis,Pittsburgh-Saint Louis,Saint Louis-Pittsburgh,5
+Pittsburgh,Toronto,Pittsburgh-Toronto,Toronto-Pittsburgh,2
+Pittsburgh,Washington,Pittsburgh-Washington,Washington-Pittsburgh,2
+Portland,Salt Lake City,Portland-Salt Lake City,Salt Lake City-Portland,6
+Portland,San Francisco,Portland-San Francisco,San Francisco-Portland,5
+Portland,Seattle,Portland-Seattle,Seattle-Portland,1
+Raleigh,Atlanta,Raleigh-Atlanta,Atlanta-Raleigh,2
+Raleigh,Charleston,Raleigh-Charleston,Charleston-Raleigh,2
+Raleigh,Nashville,Raleigh-Nashville,Nashville-Raleigh,3
+Raleigh,Pittsburgh,Raleigh-Pittsburgh,Pittsburgh-Raleigh,2
+Raleigh,Washington,Raleigh-Washington,Washington-Raleigh,2
+Saint Louis,Chicago,Saint Louis-Chicago,Chicago-Saint Louis,2
+Saint Louis,Kansas City,Saint Louis-Kansas City,Kansas City-Saint Louis,2
+Saint Louis,Little Rock,Saint Louis-Little Rock,Little Rock-Saint Louis,2
+Saint Louis,Nashville,Saint Louis-Nashville,Nashville-Saint Louis,2
+Saint Louis,Pittsburgh,Saint Louis-Pittsburgh,Pittsburgh-Saint Louis,5
+Salt Lake City,Denver,Salt Lake City-Denver,Denver-Salt Lake City,3
+Salt Lake City,Helena,Salt Lake City-Helena,Helena-Salt Lake City,3
+Salt Lake City,Las Vegas,Salt Lake City-Las Vegas,Las Vegas-Salt Lake City,3
+Salt Lake City,Portland,Salt Lake City-Portland,Portland-Salt Lake City,6
+Salt Lake City,San Francisco,Salt Lake City-San Francisco,San Francisco-Salt Lake City,5
+San Francisco,Los Angeles,San Francisco-Los Angeles,Los Angeles-San Francisco,3
+San Francisco,Portland,San Francisco-Portland,Portland-San Francisco,5
+San Francisco,Salt Lake City,San Francisco-Salt Lake City,Salt Lake City-San Francisco,5
+Santa Fe,Denver,Santa Fe-Denver,Denver-Santa Fe,2
+Santa Fe,El Paso,Santa Fe-El Paso,El Paso-Santa Fe,2
+Santa Fe,Oklahoma City,Santa Fe-Oklahoma City,Oklahoma City-Santa Fe,3
+Santa Fe,Phoenix,Santa Fe-Phoenix,Phoenix-Santa Fe,3
+Sault St Marie,Duluth,Sault St Marie-Duluth,Duluth-Sault St Marie,3
+Sault St Marie,Montreal,Sault St Marie-Montreal,Montreal-Sault St Marie,5
+Sault St Marie,Toronto,Sault St Marie-Toronto,Toronto-Sault St Marie,2
+Sault St Marie,Winnipeg,Sault St Marie-Winnipeg,Winnipeg-Sault St Marie,5
+Seattle,Calgary,Seattle-Calgary,Calgary-Seattle,4
+Seattle,Helena,Seattle-Helena,Helena-Seattle,6
+Seattle,Portland,Seattle-Portland,Portland-Seattle,1
+Seattle,Vancouver,Seattle-Vancouver,Vancouver-Seattle,1
+Toronto,Chicago,Toronto-Chicago,Chicago-Toronto,4
+Toronto,Duluth,Toronto-Duluth,Duluth-Toronto,6
+Toronto,Montreal,Toronto-Montreal,Montreal-Toronto,3
+Toronto,Pittsburgh,Toronto-Pittsburgh,Pittsburgh-Toronto,2
+Toronto,Sault St Marie,Toronto-Sault St Marie,Sault St Marie-Toronto,2
+Vancouver,Calgary,Vancouver-Calgary,Calgary-Vancouver,3
+Vancouver,Seattle,Vancouver-Seattle,Seattle-Vancouver,1
+Washington,New York City,Washington-New York City,New York City-Washington,2
+Washington,Pittsburgh,Washington-Pittsburgh,Pittsburgh-Washington,2
+Washington,Raleigh,Washington-Raleigh,Raleigh-Washington,2
+Winnipeg,Calgary,Winnipeg-Calgary,Calgary-Winnipeg,6
+Winnipeg,Duluth,Winnipeg-Duluth,Duluth-Winnipeg,4
+Winnipeg,Helena,Winnipeg-Helena,Helena-Winnipeg,4
+Winnipeg,Sault St Marie,Winnipeg-Sault St Marie,Sault St Marie-Winnipeg,5
