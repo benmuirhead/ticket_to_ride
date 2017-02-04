@@ -1,0 +1,53 @@
+Start,End,weight
+Atlanta,Charleston,2
+Atlanta,Miami,5
+Atlanta,Nashville,1
+Atlanta,New Orleans,4
+Atlanta,Raleigh,2
+Boston,Montreal,2
+Boston,New York City,2
+Charleston,Miami,4
+Charleston,Raleigh,2
+Chicago,Duluth,3
+Chicago,Omaha,4
+Chicago,Pittsburgh,3
+Chicago,Saint Louis,2
+Chicago,Toronto,4
+Dallas,El Paso,4
+Dallas,Houston,1
+Dallas,Little Rock,2
+Dallas,Oklahoma City,2
+Denver,Kansas City,4
+Denver,Oklahoma City,4
+Denver,Omaha,4
+Denver,Santa Fe,2
+Duluth,Omaha,2
+Duluth,Sault St Marie,3
+Duluth,Toronto,6
+El Paso,Houston,6
+El Paso,Oklahoma City,5
+El Paso,Santa Fe,2
+Houston,New Orleans,2
+Kansas City,Oklahoma City,2
+Kansas City,Omaha,1
+Kansas City,Saint Louis,2
+Little Rock,Nashville,3
+Little Rock,New Orleans,3
+Little Rock,Oklahoma City,2
+Little Rock,Saint Louis,2
+Miami,New Orleans,6
+Montreal,New York City,2
+Montreal,Sault St Marie,5
+Montreal,Toronto,3
+Nashville,Pittsburgh,4
+Nashville,Raleigh,3
+Nashville,Saint Louis,2
+New York City,Pittsburgh,2
+New York City,Washington,2
+Oklahoma City,Santa Fe,3
+Pittsburgh,Raleigh,2
+Pittsburgh,Saint Louis,5
+Pittsburgh,Toronto,2
+Pittsburgh,Washington,2
+Raleigh,Washington,2
+Sault St Marie,Toronto,2
