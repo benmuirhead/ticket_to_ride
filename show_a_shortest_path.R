@@ -16,17 +16,37 @@ show_a_shortest_path = function(start_city = "Omaha",
   index_to_use = sample(1:length(all_asp_a_to_b), 1)
   short_path = all_asp_a_to_b[[index_to_use]]
   E(n)$color = "grey"
-  E(n)$color[E(n)$owner == substr(p$name, 7, 7)] = p$train_color
+  E(n)$color[E(n)$owner == p$index] = p$train_color
   E(n, path = short_path)$color = "red"
-  E(n)$color[E(n)$owner == substr(p$name, 7, 7) &
+  E(n)$color[E(n)$owner == p$index &
                E(n)$color == "red"] = "purple"
   plotS(n)
+}
+
+
+show_full_map = function(ps = players) {
+  f = ps[[1]]$full_map
+  indecies = c()
+  color = c()
+  for (p in ps) {
+    indecies = c(indecies, p$index)
+    color = c(color, p$train_color)
+  }
+  E(f)$color = "grey"
+  for(i in indecies){
+    E(f)$color[E(f)$owner == i] = color[i]
+  }
+  E(f)$color[E(f)$owner == p$index] = p$train_color
+  plotS(f)
+  
 }
 
 show_path_all = function(ps = players,
                          start_city = "Omaha",
                          end_city = "Raleigh") {
-  dev.new()
+  graphics.off()
+  x11(30, 20)
+  # dev.new(width=50,height = 4)
   par(mfrow = c(1, length(ps)))
   for (i in 1:length(ps)) {
     show_a_shortest_path(p = players[[i]], start_city, end_city)

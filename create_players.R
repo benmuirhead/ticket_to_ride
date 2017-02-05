@@ -12,6 +12,7 @@ createPlayer = function(blank_map = blank_map,
   if(is.na(colors[index])){
     p$train_color = "pink"  
   }
+  p$index = index
   return(p)
 }
 
