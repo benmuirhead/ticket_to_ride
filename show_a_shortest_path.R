@@ -33,7 +33,7 @@ show_full_map = function(ps = players) {
     color = c(color, p$train_color)
   }
   E(f)$color = "grey"
-  for(i in indecies){
+  for (i in indecies) {
     E(f)$color[E(f)$owner == i] = color[i]
   }
   E(f)$color[E(f)$owner == p$index] = p$train_color
@@ -41,15 +41,24 @@ show_full_map = function(ps = players) {
   
 }
 
-show_path_all = function(ps = players,
-                         start_city = "Omaha",
-                         end_city = "Raleigh") {
+show_path_all = function(ps = players) {
   graphics.off()
   x11(30, 20)
   # dev.new(width=50,height = 4)
   par(mfrow = c(1, length(ps)))
   for (i in 1:length(ps)) {
-    show_a_shortest_path(p = players[[i]], start_city, end_city)
+    show_a_shortest_path(p = players[[i]], players[[i]]$routes[[1]], players[[i]]$routes[[2]])
+  }
+  par(mfrow = c(1, 1))
+}
+
+show_path_routes = function(ps = players) {
+  graphics.off()
+  x11(30, 20)
+  # dev.new(width=50,height = 4)
+  par(mfrow = c(1, length(ps)))
+  for (i in 1:length(ps)) {
+    show_a_shortest_path(p = players[[i]], players[[i]]$routes[[1]], players[[i]]$routes[[2]])
   }
   par(mfrow = c(1, 1))
 }

@@ -1,5 +1,9 @@
 
-net = graph.data.frame(u_edges, cities, directed = F)
+if (short){
+net = graph.data.frame(u_edges_s, cities_s, directed = F)
+}else{
+  net = graph.data.frame(u_edges, cities, directed = F)
+}
 
 distances = distances(
   net,
