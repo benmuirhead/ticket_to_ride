@@ -9,7 +9,11 @@ random_route = function(p = players[[1]]) {
   r[[2]] = V(n)[samp[2]]$name
   #to be flushed out:
   r[[3]] = 10 * distances(n, V(n)[[r[[1]]]], V(n)[[r[[2]]]])[1]
-  if (r[[3]]<110){
+  min = 11
+  if (short){
+    min = 7
+  }
+  if (r[[3]]<(min*10)){
     r = random_route(p)
   }
   return(r)

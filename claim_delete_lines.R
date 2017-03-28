@@ -26,15 +26,16 @@ claim_line_players = function(ps = players,
                               pri = TRUE) {
   if (pri)
     print(paste("claiming for player", p))
-  ps[[p]] = claim_line(players[[p]], start_city, end_city, pri = pri)
-  x = seq(length(players))
+  z = claim_line(ps[[p]], start_city, end_city, pri = pri)
+  ps[[p]] = z
+  x = seq(length(ps))
   x = x[!x == p]
   for (i in x) {
     if (pri)
       print(paste("deleting from player:", i))
     ps[[i]] = delete_line(
       p = ps[[i]],
-      p_num = i,
+      p_num = p,
       start_city = start_city,
       end_city = end_city,
       pri = pri
@@ -61,7 +62,7 @@ claim_line = function(p = p1,
   f = p$full_map
   x = E(f, P = c(V(f)[[start_city]], V(f)[[end_city]]))
   edge_attr(f, "owner")[[x]] = p$index
-  edge_attr(f, "weight")[[x]] = 0
+  #edge_attr(f, "weight")[[x]] = 0
   edge_attr(f, "label")[[x]] = 0
   edge_attr(f, "lty")[[x]] = 1
   p$full_map = f
@@ -79,7 +80,7 @@ delete_line = function(p = p1,
   f = p$full_map
   x = E(f, P = c(V(f)[[start_city]], V(f)[[end_city]]))
   edge_attr(f, "owner")[[x]] = p_num
-  edge_attr(f, "weight")[[x]] = 0
+  #edge_attr(f, "weight")[[x]] = 0
   edge_attr(f, "label")[[x]] = 0
   edge_attr(f, "lty")[[x]] = 1
   p$full_map = f

@@ -1,9 +1,9 @@
 #main
 setwd("~/GitHub/ticket_to_ride")
 source("setup.R")
-
+set.seed(2)
 source("load_data.R")
-short = TRUE
+short = FALSE
 source("build_network.R")
 
 source("build_all_asp.R")
@@ -22,27 +22,20 @@ source("route.R")
 
 source("get_edge_on_asp_from_route.R")
 
+source("player_turn.R")
+# players = createPlayers(2)
+# players = player_turn(players,1)
+# show_path_all(players)
 
 loops = 1
 time = 0
-turns = 3
+turns = 20
 for (i in 1:loops) {
   s = Sys.time()
   players = createPlayers(2)
   for (j in 1:turns) {
     for (n in 1:length(players)) {
-      # players = claim_random_line_players(players, n)
-      print(players[[n]]$name)
-      print(paste("route", players[[n]][["routes"]][[1]],"-",players[[n]][["routes"]][[2]]))
-      
-      # Get an edge to claim
-      ed = get_edge_on_asp_from_route(players[[n]])
-      print(paste("edge:", ed[1],ed[2]))
-      
-      # Claim Line and delete from other players
-      players = claim_line_players(players, p = n, ed[1], ed[2])
-      
-      ps_sums(players, TRUE)
+      players = player_turn(players, n, FALSE)
       show_path_all(players)
     }
   }
@@ -51,3 +44,5 @@ for (i in 1:loops) {
   time = time + (e - s)
 }
 print(time / loops)
+
+check_owners()

@@ -11,8 +11,8 @@ show_a_shortest_path = function(start_city = "Omaha",
   asp_count = asp[[a]]$nrgeo[b_index]
   all_asp_a_to_b = asp[[a]]$res[b_start_in_a_asp:(b_start_in_a_asp +
                                                     asp_count - 1)]
-  print(paste("Number of shortest routes:", length(all_asp_a_to_b)))
-  print(paste("Distance:", distances(n, V(n)[[a]], V(n)[[b]])[1]))
+  print(paste(p$name,"- Number of shortest routes:", length(all_asp_a_to_b),"|","Distance:", distances(n, V(n)[[a]], V(n)[[b]])[1]))
+  # print(paste("Distance:", distances(n, V(n)[[a]], V(n)[[b]])[1]))
   index_to_use = sample(1:length(all_asp_a_to_b), 1)
   short_path = all_asp_a_to_b[[index_to_use]]
   E(n)$color = "grey"
@@ -47,18 +47,7 @@ show_path_all = function(ps = players) {
   # dev.new(width=50,height = 4)
   par(mfrow = c(1, length(ps)))
   for (i in 1:length(ps)) {
-    show_a_shortest_path(p = players[[i]], players[[i]]$routes[[1]], players[[i]]$routes[[2]])
-  }
-  par(mfrow = c(1, 1))
-}
-
-show_path_routes = function(ps = players) {
-  graphics.off()
-  x11(30, 20)
-  # dev.new(width=50,height = 4)
-  par(mfrow = c(1, length(ps)))
-  for (i in 1:length(ps)) {
-    show_a_shortest_path(p = players[[i]], players[[i]]$routes[[1]], players[[i]]$routes[[2]])
+    show_a_shortest_path(p = players[[i]], players[[i]][["routes"]][[players[[i]]$current_route]][[1]], players[[i]][["routes"]][[players[[i]]$current_route]][[2]])
   }
   par(mfrow = c(1, 1))
 }

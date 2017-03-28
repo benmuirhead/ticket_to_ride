@@ -14,7 +14,8 @@ createPlayer = function(blank_map = blank_map,
   }
   p$index = index
   p$routes = c()
-  p$routes = random_route(p)
+  p$routes[[1]] = random_route(p)
+  p$current_route = 1
   # multiple routes
   # for (i in 1:3) {
   #   p$routes[i] = random_route(p)
