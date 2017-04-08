@@ -1,5 +1,6 @@
 # ticket_to_ride
 This is an ongoing project to program elements of the board game Ticket to Ride.
+Current version: https://github.com/benmuirhead/ticket_to_ride
 
 To run: source main.R
 
