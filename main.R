@@ -29,7 +29,7 @@ source("player_turn.R")
 
 loops = 1
 time = 0
-turns = 20
+turns = 10
 for (i in 1:loops) {
   s = Sys.time()
   players = createPlayers(2)
